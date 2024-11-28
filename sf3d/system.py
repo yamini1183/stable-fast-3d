@@ -35,7 +35,7 @@ except ImportError:
     import logging
 
     logging.warning(
-        "Could not import texture_baker. Please install it via `pip install texture-baker/`"
+        "Could not import texture_baker. Please install it via `pip install texture_baker/`"
     )
     # Exit early to avoid further errors
     raise ImportError("texture_baker not found")
